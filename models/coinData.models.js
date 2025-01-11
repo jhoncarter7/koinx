@@ -13,9 +13,11 @@ const coinDataSchema = new mongoose.Schema({
     },
     marketCap:{
         type: Number,
+        required: true,
     },
     volume_change_24hr:{
         type: Number,
+        required: true,
     },
 }, {timestamps: true});
 
